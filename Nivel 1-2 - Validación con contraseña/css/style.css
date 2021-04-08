@@ -1,0 +1,69 @@
+body {
+  font-family: "Montserrat", sans-serif; }
+
+.navbar {
+  padding-top: 10px; }
+  .navbar .navbar-toggler {
+    outline: none; }
+  .navbar .dropdown-menu {
+    background-color: transparent;
+    border: none; }
+    .navbar .dropdown-menu .dropdown-item {
+      color: white; }
+      .navbar .dropdown-menu .dropdown-item:hover {
+        background-color: rgba(255, 255, 255, 0.2); }
+  .navbar img {
+    width: 140px;
+    margin: 10px 0px; }
+
+.btn {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.85rem;
+  font-size: 14px; }
+
+  form .btn {
+    padding: 10px;
+    font-weight: 600;
+  }
+
+.navbar-nav .nav-item .nav-link {
+  color: white; }
+
+.rounded {
+  border-radius: 0.85rem !important; }
+
+.carousel-inner h2 {
+  text-shadow: 2px 2px 4px black; }
+.carousel-inner .btn {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+
+.carousel-item {
+  overflow: hidden; }
+
+.informacion h2 {
+  font-size: 25px; }
+.informacion img {
+  margin: 15px 0px; }
+
+.novedades h2 {
+  font-size: 25px; }
+.novedades p {
+  position: relative;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -39px; }
+.novedades img:hover {
+  opacity: 0.8; }
+.novedades a:hover {
+  text-decoration: none;
+  opacity: 0.8; }
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    width: 100%; }
+
+  .btn {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
