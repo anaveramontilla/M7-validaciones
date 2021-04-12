@@ -77,6 +77,10 @@ function inputContra2() {
         contra2.classList.add("is-invalid");
         document.getElementById("errorContra2").textContent = "Las contraseñas deben coincidir.";
         return false;
+    } else if (!validarPassword(contra2.value)) {
+        contra2.classList.add("is-invalid");
+        document.getElementById("errorContra2").textContent = "Formato no válido. Debe contener al menos 8 caracteres, una mayúscula y un número";
+        return false;
     }
     return true;
 }
